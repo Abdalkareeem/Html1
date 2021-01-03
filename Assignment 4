@@ -1,0 +1,41 @@
+<title>Abdalkareem Rabai PHP</title>
+<h1>Abdalkareem Rabai PHP</h1>
+<?php
+print "The SHA256 hash of \"Abdalkareem Rabai\" is ";
+print hash('sha256', 'Abdalkareem Rabai');
+$name = ' ASCII ART:
+                                 
+                                 
+                   AAA               
+                  A:::A              
+                 A:::::A             
+                A:::::::A            
+               A:::::::::A           
+              A:::::A:::::A          
+             A:::::A A:::::A         
+            A:::::A   A:::::A        
+           A:::::A     A:::::A       
+          A:::::AAAAAAAAA:::::A      
+         A:::::::::::::::::::::A     
+        A:::::AAAAAAAAAAAAA:::::A    
+       A:::::A             A:::::A   
+      A:::::A               A:::::A  
+     A:::::A                 A:::::A 
+    AAAAAAA                   AAAAAAA
+                                 
+                                 
+                                 
+                                 
+                                 
+                                 
+                                 
+                                                                                                     
+';
+
+
+echo "<pre>";
+echo $name;
+echo "</pre>";
+
+
+?>
